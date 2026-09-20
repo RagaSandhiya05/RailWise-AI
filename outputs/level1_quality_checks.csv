@@ -1,0 +1,10 @@
+Check,Count
+Missing values,0
+Exact duplicate rows,0
+Missing train number,0
+Missing origin station,0
+Missing destination station,0
+Non-positive distance,0
+Negative stop count,0
+Non-positive journey duration,0
+Journey duration above 7 days,0
