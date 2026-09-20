@@ -6,22 +6,49 @@ RailWise AI is a machine learning project focused on predicting train journey du
 
 ---
 
+
 ## 📌 Table of Contents
 
-* [Project Overview](#-project-overview)
-* [Project Objectives](#-project-objectives)
-* [Project Levels](#-project-levels)
-* [Dataset Description](#-dataset-description)
-* [Technologies Used](#-technologies-used)
-* [Project Structure](#-project-structure)
-* [Installation and Setup](#-installation-and-setup)
-* [Running the Project](#-running-the-project)
-* [Model Comparison](#-model-comparison)
-* [Streamlit Application](#-streamlit-application)
-* [Visualizations](#-visualizations)
-* [Key Learnings](#-key-learnings)
-* [Limitations](#-limitations)
-* [Future Enhancements](#-future-enhancements)
+- [Project Overview](#-project-overview)
+- [System Architecture](#-system-architecture)
+- [Project Objectives](#-project-objectives)
+- [Project Levels](#-project-levels)
+  - [Level 1 — Dataset Understanding](#level-1--dataset-understanding)
+  - [Level 2 — Data Cleaning and Feature Engineering](#level-2--data-cleaning-and-feature-engineering)
+  - [Level 3 — Exploratory Data Analysis and Visualization](#level-3--exploratory-data-analysis-and-visualization)
+  - [Level 4 — Model Training and Evaluation](#level-4--model-training-and-evaluation)
+  - [Level 5 — Model Comparison](#level-5--model-comparison)
+  - [Level 6 — Interactive Prediction System](#level-6--interactive-prediction-system)
+- [Dataset Description](#-dataset-description)
+- [Technologies Used](#️-technologies-used)
+- [Project Structure](#-project-structure)
+- [Installation and Setup](#️-installation-and-setup)
+- [Running the Project](#️-running-the-project)
+- [Model Comparison](#-model-comparison)
+  - [Understanding the Metrics](#understanding-the-metrics)
+- [Model Comparison Results](#model-comparison-results)
+  - [MAE — Mean Absolute Error](#mae-mean-absolute-error)
+  - [RMSE — Root Mean Squared Error](#rmse-root-mean-squared-error)
+  - [Actual vs Predicted Journey Duration](#actual-vs-predicted-journey-duration)
+- [Streamlit Application](#-streamlit-application)
+  - [User Inputs](#user-inputs)
+  - [Prediction Output](#prediction-output)
+- [Application Screenshots](#application-screenshots)
+  - [Application Homepage](#application-homepage)
+  - [Journey Details Input Form](#journey-details-input-form)
+  - [Predicted Journey Duration](#predicted-journey-duration)
+- [Visualizations](#-visualizations)
+  - [Level 3 — Exploratory Data Analysis](#level-3--exploratory-data-analysis)
+  - [Distance vs Journey Duration](#distance-vs-journey-duration)
+  - [Stops vs Journey Duration](#stops-vs-journey-duration)
+  - [Correlation Heatmap](#correlation-heatmap)
+  - [Level 4 — Model Evaluation](#level-4--model-evaluation)
+  - [Level 5 — Model Comparison](#level-5--model-comparison-1)
+- [Key Learnings](#-key-learnings)
+- [Limitations](#️-limitations)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
+
 
 ---
 
@@ -40,6 +67,17 @@ The trained models explore the relationship between:
 The project compares different regression algorithms and integrates a selected model into a Streamlit application for interactive predictions.
 
 ---
+
+
+## 🏗️ System Architecture
+
+The following diagram illustrates the complete RailWise AI workflow, from dataset processing and exploratory analysis to model comparison, saving the trained model, and interactive predictions through Streamlit.
+
+<img width="1536" height="1024" alt="RailWise_AI_Ar" src="https://github.com/user-attachments/assets/03c858ca-ab1f-4782-a56d-bd51e4afb874" />
+
+
+---
+
 
 ## 🎯 Project Objectives
 
@@ -507,7 +545,6 @@ The screenshots above illustrate the application's prediction workflow, model ev
 * Evaluate models using cross-validation and a separate final test set.
 * Enhance the interactive application with train and station selection.
 * Explore additional algorithms and feature engineering techniques.
-* Deploy the application for public access.
 
 ---
 
