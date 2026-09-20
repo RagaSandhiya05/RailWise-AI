@@ -8,21 +8,20 @@ RailWise AI is a machine learning project focused on predicting train journey du
 
 ## 📌 Table of Contents
 
-* [Project Overview](#project-overview)
-* [Project Objectives](#project-objectives)
-* [Project Levels](#project-levels)
-* [Dataset Description](#dataset-description)
-* [Technologies Used](#technologies-used)
-* [Project Structure](#project-structure)
-* [Installation and Setup](#installation-and-setup)
-* [Running the Project](#running-the-project)
-* [Model Comparison](#model-comparison)
-* [Streamlit Application](#streamlit-application)
-* [Visualizations](#visualizations)
-* [Key Learnings](#key-learnings)
-* [Limitations](#limitations)
-* [Future Enhancements](#future-enhancements)
-* [Author](#author)
+* [Project Overview](#-project-overview)
+* [Project Objectives](#-project-objectives)
+* [Project Levels](#-project-levels)
+* [Dataset Description](#-dataset-description)
+* [Technologies Used](#-technologies-used)
+* [Project Structure](#-project-structure)
+* [Installation and Setup](#-installation-and-setup)
+* [Running the Project](#-running-the-project)
+* [Model Comparison](#-model-comparison)
+* [Streamlit Application](#-streamlit-application)
+* [Visualizations](#-visualizations)
+* [Key Learnings](#-key-learnings)
+* [Limitations](#-limitations)
+* [Future Enhancements](#-future-enhancements)
 
 ---
 
@@ -471,6 +470,7 @@ To display screenshots in this README, create a `screenshots/` folder in the rep
 ## 👩‍💻 Author
 
 **Raga Sandhiya R**
+
 
 ---
 
