@@ -382,6 +382,26 @@ The Random Forest model had the lowest MAE and RMSE and the highest R² among th
 
 ---
 
+## Model Comparison Results
+
+
+### MAE (Mean Absolute Error)
+
+<img width="3000" height="1800" alt="level5_mae_comparison" src="https://github.com/user-attachments/assets/5d99aacb-f49a-420b-a0a7-84d61cb00305" />
+
+
+### RMSE (Root Mean Squared Error)
+
+<img width="3000" height="1800" alt="level5_rmse_comparison" src="https://github.com/user-attachments/assets/e34ec8ef-9d47-4dd9-a30d-fe6bad1f785a" />
+
+
+### Actual vs Predicted Journey Duration
+
+<img width="2700" height="1800" alt="level5_best_model_actual_vs_predicted" src="https://github.com/user-attachments/assets/35dd3627-d03e-4203-8fe5-c7f7acd27452" />
+
+
+---
+
 ## 💻 Streamlit Application
 
 RailWise AI includes an interactive application for estimating scheduled train journey duration.
@@ -403,6 +423,21 @@ The application loads the saved model from the `models/` directory.
 
 ---
 
+## Application Screenshots
+
+### Application Homepage
+<img width="937" height="367" alt="Streamlit_1" src="https://github.com/user-attachments/assets/96c6ebde-a1f6-4f01-ad3f-a6dbfe82d026" />
+
+
+### Journey Details Input Form
+<img width="937" height="383" alt="Streamlit_2" src="https://github.com/user-attachments/assets/cb1756db-6017-4383-a036-eb448dae4876" />
+
+
+### Predicted Journey Duration
+<img width="937" height="591" alt="Streamlit_3" src="https://github.com/user-attachments/assets/c60d7ab0-8434-40c7-8bdf-ebf5d0097902" />
+
+---
+
 ## 📷 Visualizations
 
 The project generates visualizations to support dataset exploration and model evaluation.
@@ -414,6 +449,19 @@ The project generates visualizations to support dataset exploration and model ev
 * Correlation heatmap
 * Pivot table of journey duration by number of stops
 
+### Distance vs Journey Duration
+
+<img width="3000" height="1800" alt="level3_distance_vs_duration" src="https://github.com/user-attachments/assets/2a73293c-142e-4191-ad38-1f4a10a70b13" />
+
+### Stops vs Journey Duration
+
+<img width="3000" height="1800" alt="level3_stops_vs_duration" src="https://github.com/user-attachments/assets/8a09292a-2325-494e-97fe-e60057965fce" />
+
+### Correlation Heatmap
+
+<img width="3000" height="2100" alt="level3_correlation_heatmap" src="https://github.com/user-attachments/assets/b84a610e-4986-43be-8f5b-2f9bda979c86" />
+
+
 ### Level 4 — Model Evaluation
 
 * Actual vs. predicted journey duration
@@ -424,11 +472,7 @@ The project generates visualizations to support dataset exploration and model ev
 * RMSE comparison chart
 * Actual vs. predicted results for the selected model
 
-To display screenshots in this README, create a `screenshots/` folder in the repository and add your captured images. You can then embed them using relative paths, for example:
-
-```markdown
-![RailWise AI Application](screenshots/railwise-app.png)
-```
+The screenshots above illustrate the application's prediction workflow, model evaluation, and exploratory data analysis.
 
 ---
 
