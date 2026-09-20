@@ -11,6 +11,8 @@ RailWise AI is a machine learning project focused on predicting train journey du
 
 - [Project Overview](#-project-overview)
 - [System Architecture](#-system-architecture)
+  - [Complete Project Workflow](#1-complete-project-workflow)
+  - [Machine Learning Workflow](#2-machine-learning-workflow)
 - [Project Objectives](#-project-objectives)
 - [Project Levels](#-project-levels)
   - [Level 1 — Dataset Understanding](#level-1--dataset-understanding)
@@ -73,7 +75,16 @@ The project compares different regression algorithms and integrates a selected m
 
 The following diagram illustrates the complete RailWise AI workflow, from dataset processing and exploratory analysis to model comparison, saving the trained model, and interactive predictions through Streamlit.
 
+
+### 1. Complete Project Workflow
+
 <img width="1536" height="1024" alt="RailWise_AI_Ar" src="https://github.com/user-attachments/assets/03c858ca-ab1f-4782-a56d-bd51e4afb874" />
+
+
+### 2. Machine Learning Workflow
+
+<img width="1580" height="2042" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/f169b09c-8245-4394-9a33-1607621aa32d" />
+
 
 
 ---
