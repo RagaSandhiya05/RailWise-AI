@@ -2,24 +2,27 @@
 
 RailWise AI is a machine learning project focused on predicting train journey duration using data analysis, data cleaning, feature engineering, and model comparison. It explores relationships between journey distance, intermediate stops, and travel time, evaluates multiple regression models, and provides an interactive Streamlit application where users can enter journey details, view predicted durations, and explore model performance through visualizations.
 
+🔗 **Live Demo:** [Try RailWise AI](https://ragasandhiya05-railwise-ai-app-0ek8l1.streamlit.app/)
+
 ---
 
 ## 📌 Table of Contents
 
-* [Project Overview](#-project-overview)
-* [Project Objectives](#-project-objectives)
-* [Project Levels](#-project-levels)
-* [Dataset Description](#-dataset-description)
-* [Technologies Used](#-technologies-used)
-* [Project Structure](#-project-structure)
-* [Installation and Setup](#-installation-and-setup)
-* [Running the Project](#-running-the-project)
-* [Model Comparison](#-model-comparison)
-* [Streamlit Application](#-streamlit-application)
-* [Visualizations](#-visualizations)
-* [Key Learnings](#-key-learnings)
-* [Limitations](#-limitations)
-* [Future Enhancements](#-future-enhancements)
+* [Project Overview](#project-overview)
+* [Project Objectives](#project-objectives)
+* [Project Levels](#project-levels)
+* [Dataset Description](#dataset-description)
+* [Technologies Used](#technologies-used)
+* [Project Structure](#project-structure)
+* [Installation and Setup](#installation-and-setup)
+* [Running the Project](#running-the-project)
+* [Model Comparison](#model-comparison)
+* [Streamlit Application](#streamlit-application)
+* [Visualizations](#visualizations)
+* [Key Learnings](#key-learnings)
+* [Limitations](#limitations)
+* [Future Enhancements](#future-enhancements)
+* [Author](#author)
 
 ---
 
